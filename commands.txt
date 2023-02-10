@@ -1,0 +1,6 @@
+c:\catkin_ws\devel\setup.bat
+set TURTLEBOT3_MODEL=waffle_pi
+roslaunch turtlebot3_gazebo_lab lab3.launch
+rosrun turtlebot3_gazebo_lab scripts/controller_lab3_ccw.py
+rosrun turtlebot3_gazebo_lab scripts/record.py
+rosrun turtlebot3_gazebo_lab scripts/record_path.py
